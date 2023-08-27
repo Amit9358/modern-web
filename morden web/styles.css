@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "General sans";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: auto;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+#nav{
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#heading{
+    margin-top: 90px;
+}
+#heading h1{
+    font-size: 9vw;
+    opacity: .6;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1;
+    font-family: "general sans medium";
+    margin-left: 30px;
+}
+#heading #second{
+margin-left: 230px;
+}
+.blocktext{
+    width: fit-content;
+}
+.blocktext h5{
+text-align: right;
+font-size: 15px;
+text-transform: uppercase;
+}
+#heading2{
+    margin-top: 100px;
+}
+#heading2 h5{
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+#herofooter{
+    width: 100%;
+    padding: 0 2vw;
+    position: absolute;
+    bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#herofooter a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#herofooter #iconset{
+    display: flex;
+    gap: 5px;
+
+}
+#herofooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: grey;
+}
+#secondpage{
+    padding: 10vw;
+    padding-top: 200px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.elem{
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.5vw 3vw ;
+    padding-right: 0;
+    border-top: 1px solid grey;
+}
+.elem h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    opacity: .8;
+}
+.elementlast{
+border-bottom: 1px solid grey;
+}
+.elem img{
+    display: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+}
+#about {
+    color:white;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+}
+#textabout{
+    width: 25rem;
+}
+#textabout h5{
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 10px;
+
+}
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+
+}
+#about img{
+    width: 15vw;
+}
+#textabout a{
+    padding: 12px 22px;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+#subscribe{
+    background-color: black;
+    padding: 20px 30px;
+    padding-bottom:7vw ;
+    color: white;
+}
+#subscribe h5{
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+#subscribe h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+#footerleft{
+display: flex;
+gap: 20px;
+}
